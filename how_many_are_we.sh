@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -c -i "$1"   
+grep -c "${1^^}"   
